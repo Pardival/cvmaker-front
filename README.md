@@ -1,5 +1,9 @@
 # CvmakerFront
 
+This project is a modern, responsive CV (resume) generator built with Angular and styled using Tailwind CSS.  
+The goal is to provide users with an intuitive interface to create professional resumes directly from the browser, and export them as PDF.
+
+# +++++++++++++++++++++++++++++++ Angular Readme +++++++++++++++++++++++++++++++
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
 
 ## Development server
