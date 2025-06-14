@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
-import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { HeaderComponent } from './layout/header/header.component';
+import { HomePageComponent } from './features/home/pages/home-page/home-page.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ButtonModule, ProgressSpinnerModule],
+  imports: [RouterOutlet, HeaderComponent, HomePageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
